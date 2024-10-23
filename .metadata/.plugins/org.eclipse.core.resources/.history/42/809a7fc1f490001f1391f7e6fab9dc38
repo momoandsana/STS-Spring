@@ -16,17 +16,9 @@ import org.springframework.util.StopWatch;
  */
 
 @Service("advice") // 기본 생성 id="timerAdvice" 근데 advice로 바꿈
-@Aspect // 관심사항(공통관심사항) --> <aop:aspect ref="advice" 랑 같은 역할
+@Aspect // 관심사항(공통관심사항) --> <aop:ascpect ref="advice" 랑 같은 역할
 public class TimerAdvice {
 	
-	/*
-	 * (*) 별 정리
-	 * 첫 번째 별 : 반환타입
-	 * 두 번째 별 : 클래스 이름
-	 * 세 번째 별 : 메소드 이름
-	 * (..) : 인수가 있는 경우
-	 * () : 인수가 없는 경우 
-	 */
 	@Around("execution(* exam.service.*.*(..))")
 	public Object around(ProceedingJoinPoint joinPoint)throws Throwable
 	{

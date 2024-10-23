@@ -13,7 +13,7 @@ public class CustimerServiceImpl implements CustomerService {
 	public String selectById(String id) {
 		// TODO Auto-generated method stub
 		System.out.println("CustomerServiceImpl selectById(String id) ");
-		if(id==null)throw new RuntimeException("id는 반드시 입력해주세요");
+		if(id==null)throw new RunTimeException("id는 반드시 입력해주세요");
 		
 		
 		return "hello";
