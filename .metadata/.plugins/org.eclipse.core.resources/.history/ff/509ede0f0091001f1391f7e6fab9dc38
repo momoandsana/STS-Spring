@@ -1,0 +1,36 @@
+package exam.aop;
+
+import org.aspectj.lang.JoinPoint;
+
+public class SampleAdvice {
+	/*
+	 * 사전처리
+	 * joinpoint 는 target 대상, 즉 advice 적용하는 메소드의 정보를 조회할 수 있는 메소드 제공
+	 */
+	public void before(JoinPoint joinPoint) {
+		String methodName=joinPoint.getSignature().getName();
+		System.out.println(methodName+"호출되기 전 before 의 사전처리입니다");
+		
+	}
+	
+	
+	/*
+	 * 사후처리 : 예외발생여부 상관없이 무조건
+	 */
+	
+	
+	
+	
+	
+	/*
+	 * 사후처리 : 예외발생없이 정상동작했을 때
+	 */
+	
+	
+	
+	
+	
+	/*
+	 * 사후처리 : 예외발생했을 때
+	 */
+}

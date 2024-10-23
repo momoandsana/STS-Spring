@@ -25,7 +25,9 @@ public class TimerAdvice {
 	 * 두 번째 별 : 클래스 이름
 	 * 세 번째 별 : 메소드 이름
 	 * (..) : 인수가 있는 경우
-	 * () : 인수가 없는 경우 
+	 * () : 인수가 없는 경우
+	 * 
+	 *  execution 은 함수가 호출될 때 포인트컷을 설정
 	 */
 	@Around("execution(* exam.service.*.*(..))")
 	public Object around(ProceedingJoinPoint joinPoint)throws Throwable
