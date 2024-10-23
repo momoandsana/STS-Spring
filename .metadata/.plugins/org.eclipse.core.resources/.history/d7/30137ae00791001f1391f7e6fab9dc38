@@ -18,7 +18,7 @@ public class MainApp {
 		
 		service.select();
 		System.out.println("-------------------------------------------------");
-		service.selectById(null);
+		service.selectById("id");
 		System.out.println("-------------------------------------------------");
 		service.update("id","name");
 	

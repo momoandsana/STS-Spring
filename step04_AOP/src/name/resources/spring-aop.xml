@@ -14,12 +14,12 @@
 <aop:config>
 	<aop:pointcut expression="execution(* exam.service.*Impl.*(..))" id="pointCut"/>
 	
-	<aop:aspect ref="aroundAdvice">
+	<aop:aspect ref="aroundAdvice" order="2">
 		<aop:around method="around" pointcut-ref="pointCut"/>
 		<!--  around 함수의 around 함수 -->
 	</aop:aspect>
 	
-	<aop:aspect ref="sampleAdvice">
+	<aop:aspect ref="sampleAdvice" order="1">
 		<aop:before method="before" pointcut-ref="pointCut"/>
 		<aop:after method="afterFinally" pointcut-ref="pointCut"/> 
 		
