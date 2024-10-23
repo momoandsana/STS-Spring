@@ -1,0 +1,45 @@
+package exam.aop;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.springframework.util.StopWatch;
+
+/*
+ * 공통관심사항(사전, 사후처리- around 방식)
+ * -사전 : 현재시간을 구한다
+ * -사후 : 현재시간을 구해서 사전의 현재시간을 뺀다
+ * 
+ * @param: ProceedingJoinPoint - proceed() 메소드를 호출하기 위해 인수로 전달
+ * (Proceed with the next advice or target method invocation)
+ */
+public class TimerAdvice {
+	
+	public Object around(ProceedingJoinPoint joinPoint)throws Throwable
+	{
+		// 사전 
+		String methodName=joinPoint.getSignature().getName();
+		
+		Object[] params=joinPoint.getArgs();
+		System.out.println("[LOG]"+methodName+"호출되기 전 사전 처리중입니다");
+		System.out.println("[LOG]"+methodName+"의 인수의 개수"+params.length);
+		
+		for(Object param:params)
+		{
+			System.out.println(param);
+		}
+		
+		StopWatch sw=new StopWatch();
+		sw.start();
+			
+		Object obj=joinPoint.proceed(); // 다음 target 대상 호출(다른 advice or joinPoint=핵심기능)
+		
+		// 사후
+		sw.stop();
+		System.out.println("[LOG] "+methodName+"의 리턴값 = "+obj);
+		System.out.println("[LOG] "+methodName+"총 실행시간 ms "+sw.getTotalTimeMillis());
+		System.out.println("[LOG] "+methodName+"사후처리 완료되었습니다");
+		
+		return obj;
+	}
+	
+
+}

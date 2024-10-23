@@ -1,0 +1,12 @@
+package sample08;
+
+@NoArgsConsturctor
+@Getter
+@Setter
+public class BookDTO {
+	String Subject;
+	String Writer;
+	int price;
+	String date;
+
+}

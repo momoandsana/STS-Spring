@@ -1,0 +1,15 @@
+package sample02;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// 기존방식
+		MemberDAO dao=new MemberDAO();
+		Member member=new Member("jang","111",20,"서울");
+		
+		MemberService service=new MemberService(dao,member);
+		service.serviceInsert();
+
+	}
+
+}

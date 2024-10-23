@@ -1,0 +1,8 @@
+package sample08;
+
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+public class DBUtil {
+
+}

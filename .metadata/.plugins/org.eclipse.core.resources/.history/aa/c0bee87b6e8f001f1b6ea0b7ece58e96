@@ -1,0 +1,31 @@
+package sample01;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		MessageBean bean=new MessageBeanEnImpl();
+//		bean.sayHello("heejung");
+//		
+//		bean=new MessageBeanKoImpl();
+////		bean.sayHello("희정");
+		
+		/*
+		 * SpringContainer 의 ApplicationContext 를 이용해서 객체 관리
+		 * configuration meta-data 파일이 필요하다(~.xml)
+		 */
+		ApplicationContext context=new ClassPathXmlApplicationContext("sample01/applicationContext.xml");
+		// applicationContext 가 내용에 따라 객체를 생성해줌
+		System.out.println("---------------------------");
+		MessageBean bean=context.getBean("en",MessageBean.class); // en은 xml 파일의 id 이름, MessageBean 은 인터페이스
+		bean.sayHello("haha");
+		
+		bean=context.getBean("ko",MessageBean.class);
+		bean.sayHello("나영");
+		
+	}
+
+}

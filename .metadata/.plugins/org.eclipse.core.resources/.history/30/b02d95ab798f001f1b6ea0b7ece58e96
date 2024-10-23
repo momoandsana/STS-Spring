@@ -1,0 +1,10 @@
+package sample03;
+
+public class BookDAOImpl implements BookDAO {
+
+	@Override
+	public void insert(BookVo book) {
+		
+	}
+
+}

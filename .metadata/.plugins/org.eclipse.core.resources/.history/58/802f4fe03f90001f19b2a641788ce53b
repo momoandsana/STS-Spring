@@ -1,0 +1,20 @@
+package sample08;
+
+import org.springframework.stereotype.Repository;
+
+import lombok.RequiredArgsConstructor;
+import sample03.BookDAO;
+import sample03.BookVo;
+
+@RequiredArgsConstructor
+@Repository
+public class BookDAOImpl implements BookDAO {
+	private final DBUtil dbUtil;
+
+	@Override
+	public void insert(BookVo book) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package sample04;
+
+public class StudentDAOImpl {
+	public StudentDAOImpl() {
+		System.out.println("StudentDAOImple 생성");
+	}
+	
+	@Override
+	public void insert(Student student)
+	{
+
+	}
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	xmlns:context="http://www.springframework.org/schema/context"
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- @Autowired 를 등록 -->
+	<!--  <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>-->
+	
+	<!-- java configuration 에 관련된 어노테이션들을 자동으로 등록해주는 설정 
+	@Required @Autowired @PostConstruct @PreDestory
+	-->
+	<context:annotation-config/>
+	
+	
+	
+	<!-- 객체를 생성 -->
+	<bean class="sample06.EmpDTO" id="dto1"/>
+	
+	<bean class="sample06.EmpService" id="service"/>
+	
+	<bean class="sample06.EmpController" id="controller"/>
+	
+	
+</beans>

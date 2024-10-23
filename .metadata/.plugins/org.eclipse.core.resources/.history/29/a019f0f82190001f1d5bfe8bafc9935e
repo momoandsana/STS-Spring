@@ -1,0 +1,50 @@
+package sample07;
+
+public class Member {
+	String id;
+	String pwd;
+	int age;
+	String addr;
+	
+	public Member(String id) {
+		
+		this.id = id;
+		System.out.println("Member 생성자");
+	
+	}
+	
+	public Member(String id, String pwd) {
+	
+		this.id = id;
+		this.pwd = pwd;
+		
+	}
+	
+	public Member(String id, String pwd, int age) {
+	
+		this.id = id;
+		this.pwd = pwd;
+		this.age = age;
+		System.out.println("Member 생성자");
+		
+	}
+	
+	public Member(String id, String pwd, int age, String addr) {
+	
+		this.id = id;
+		this.pwd = pwd;
+		this.age = age;
+		this.addr = addr;
+		System.out.println("Member 생성자");
+	}
+
+	@Override
+	public String toString() {
+		return "Member [id=" + id + ", pwd=" + pwd + ", age=" + age + ", addr=" + addr + "]";
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,28 @@
+package sample03;
+
+public class BookDAOImpl implements BookDAO {
+	
+	private String subject;
+	private String writer;
+	private int price;
+	private String date;
+
+
+	BookDAOImpl(){
+		System.out.println("BookDAO impl 호출됨");
+	}
+
+	
+	BookDAOImpl(String subject, String writer, int price, String date) {
+		this.subject = subject;
+		this.writer = writer;
+		this.price = price;
+		this.date = date;
+		System.out.println("BookDAOImpl 생성자 호출됨: " + subject + ", " + writer + ", " + price + ", " + date);
+	}
+	
+	@Override
+	public void insert(BookVo book) {
+		System.out.println("책 삽입: " + book);
+	}
+}

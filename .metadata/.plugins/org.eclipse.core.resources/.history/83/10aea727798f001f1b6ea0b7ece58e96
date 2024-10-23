@@ -1,0 +1,5 @@
+package sample03;
+
+public class BookDAO {
+	void insert(BookVo book)
+}

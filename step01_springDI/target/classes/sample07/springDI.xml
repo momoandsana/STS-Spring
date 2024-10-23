@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	<!-- 
+	@Component,@Repository,@Service,@Controller,
+	@RestController,@ControllerAdvice,
+	@Configuration 어노테이션 가진 애들 자동으로 등록해줌
+	생성과 주입에 관한 어노테이션들이 모두 자동으로 등록된다	
+	 -->
+	<context:component-scan base-package="sample07">
+	<!-- sample07 밑에 있는 애들만 자동으로 생성 및 주입 -->
+		
+	</context:component-scan>
+
+</beans>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- 외부의 ~.properties 파일의 위치 설정 -->
+	<bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
+		<property name="locations">
+			<!--  set method 호출 -->
+			<array>
+				<value>classPath:info.properties</value>
+				<value></value>
+				<value></value>
+			</array>
+		</property>
+	</bean>
+	
+	
+	
+	<!-- 객체 생성 + 주입 -->
+	
+	<!-- 학생의 정보의 값을 외부의 ~.properties 파일의 key의 value로 저장 -->
+	<bean class="sample04.Student" id="st1">
+	<!--  setter 생성자 -->
+		<property name="addr" value="${student.addr}"/>
+		<property name="no" value="${student.no}"/>
+		<property name="phone" value="${student.phone}"/>
+		<property name="name" value="${student.name}"/>
+	</bean>
+	
+	<!-- 인터페이스가 아니라 impl을 생성해야 한다 -->
+	<bean class="sample04.StudentDAOImpl" id="dao"/>
+	
+	<bean class="sample04.StudentServiceImpl" id="service">
+		<property name="studentDAO" ref="dao"/>
+	</bean>
+	
+	<bean class="sample04.StudentController" id="controller">
+		<property name="student" ref="st1"/>
+		<property name="studentService" ref="service"/>
+	</bean>
+	
+</beans>

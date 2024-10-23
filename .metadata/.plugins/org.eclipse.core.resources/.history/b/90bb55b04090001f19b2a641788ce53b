@@ -1,0 +1,23 @@
+package sample08;
+
+import org.springframework.stereotype.Service;
+
+import lombok.RequiredArgsConstructor;
+
+//@NoArgsConstructor
+@RequiredArgsConstructor
+@Service
+public class BookServiceImpl implements BookService{
+	private final EmailSender emailSender;
+	private final MessageSender messageSender;
+	private final BookDAO8 bookDAO;
+	
+	@Override
+	public void save(BookDTO book1, BookDTO book2) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+}

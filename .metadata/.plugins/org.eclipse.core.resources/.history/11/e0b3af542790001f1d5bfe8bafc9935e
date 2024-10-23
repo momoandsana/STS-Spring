@@ -1,0 +1,15 @@
+package sample07;
+
+public class BoardServiceImpl implements BoardService {
+	
+	BoardServiceImpl(){
+		System.out.println("BoardServiceImpl 생성자");
+	};
+	
+	@Override
+	public void select() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

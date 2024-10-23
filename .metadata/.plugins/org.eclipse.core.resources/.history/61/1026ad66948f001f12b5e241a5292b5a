@@ -1,0 +1,66 @@
+package sample05;
+
+public class OrderMessageImpl implements OrderMessage{
+	int orderId;
+	String message;
+	UserBean userBean;
+	ProductBean productBean;
+	
+	public OrderMessageImpl() {}
+
+	public int getOrderId() {
+		return orderId;
+	}
+
+
+	public void setOrderId(int orderId) {
+		this.orderId = orderId;
+	}
+
+
+	public String getMessage() {
+		return message;
+	}
+
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public UserBean getUserBean() {
+		return userBean;
+	}
+
+
+	public void setUserBean(UserBean userBean) {
+		this.userBean = userBean;
+	}
+
+
+	public ProductBean getProductBean() {
+		return productBean;
+	}
+
+
+	public void setProductBean(ProductBean productBean) {
+		this.productBean = productBean;
+	}
+
+
+	@Override
+	public void getOrderMessage() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+    public String toString() {
+        return "orderId: " + orderId + "\n"
+               + "name: " + userBean.getName() + "\n"
+               + "상품명: " + productBean.getProductName() + "\n"
+               + "상품가격: " + productBean.getProductPrice() + "\n"
+               + "메시지: " + message;
+    }
+
+	
+}

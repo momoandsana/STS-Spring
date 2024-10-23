@@ -1,0 +1,14 @@
+package sample08;
+
+import sample03.BookDAO;
+import sample03.BookVo;
+
+public class BookDAOImpl implements BookDAO {
+
+	@Override
+	public void insert(BookVo book) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

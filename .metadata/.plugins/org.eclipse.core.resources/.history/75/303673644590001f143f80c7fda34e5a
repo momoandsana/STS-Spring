@@ -1,0 +1,9 @@
+package sample08;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+
+public interface BookDAO8 {
+	void save(EmailSender email,MessageSender message,BookDTO bookDTO);
+}

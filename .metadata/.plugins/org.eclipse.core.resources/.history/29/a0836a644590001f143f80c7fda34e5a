@@ -1,0 +1,26 @@
+package sample08;
+
+import org.springframework.stereotype.Repository;
+
+import lombok.RequiredArgsConstructor;
+import sample03.BookDAO;
+import sample03.BookVo;
+
+@RequiredArgsConstructor
+@Repository
+public class BookDAOImpl implements BookDAO8 {
+	private final DBUtil dbUtil;
+	
+	private final EmailSender emailSender;
+	private final MessageSender messageSender;
+	private final BookDTO bookDTO;
+	
+	public void save(EmailSender email,MessageSender message,BookDTO bookDTO) {
+		BookDTO book1=new BookDTO();
+		BookDTO book2=new BookDTO();
+		
+	}
+	
+	
+
+}

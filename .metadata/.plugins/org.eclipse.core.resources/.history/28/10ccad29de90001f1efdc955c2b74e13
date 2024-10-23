@@ -1,0 +1,5 @@
+package exam.aop;
+
+public class timerAdvice {
+
+}

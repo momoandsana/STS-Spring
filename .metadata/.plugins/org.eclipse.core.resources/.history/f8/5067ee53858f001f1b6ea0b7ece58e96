@@ -1,0 +1,15 @@
+package sample04;
+
+public class StudentDAOImpl implements StudentDAO{
+	public StudentDAOImpl() {
+		System.out.println("StudentDAOImple 생성");
+	}
+
+	@Override
+	public void insert(Student student) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

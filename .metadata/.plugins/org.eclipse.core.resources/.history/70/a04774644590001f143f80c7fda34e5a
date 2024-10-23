@@ -1,0 +1,22 @@
+package sample08;
+
+import org.springframework.stereotype.Controller;
+
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@Controller("controller")
+@RequiredArgsConstructor
+//@NoArgsConstructor
+public class BookController {
+	private final BookDTO book1;
+	private final BookDTO book2;
+	private final BookService bookService;
+	
+	void invoker() {
+		bookService.save(book1,book2);
+		System.out.println("book1 = "+book1);
+		System.out.println("book2 = "+book2);
+	}
+}

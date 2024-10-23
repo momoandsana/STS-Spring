@@ -1,0 +1,14 @@
+package sample03;
+
+public class BookDAOImpl implements BookDAO {
+	
+	BookDAOImpl(){
+		System.out.println("BookDAO impl 호출됨");
+	}
+	
+	@Override
+	public void insert(BookVo book) {
+		
+	}
+
+}

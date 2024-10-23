@@ -1,0 +1,12 @@
+package sample07;
+
+public class MemberService {
+	public MemberService() {
+		System.out.println("MemberService 생성자");
+	}
+	
+	MemberService(MemberDAO memberDAO, Member member){};
+	
+	void serviceInsert() {};
+
+}

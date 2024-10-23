@@ -1,0 +1,31 @@
+package sample06;
+
+public class EmpDTO {
+	private int empno;
+	private String name;
+	private String job;
+	
+	public EmpDTO() {
+		System.out.println("EmpDTO 생성자 호출됨");
+	}
+
+	public int getEmpno() {
+		return empno;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getJob() {
+		return job;
+	}
+
+	@Override
+	public String toString() {
+		return "EmpDTO [empno=" + empno + ", name=" + name + ", job=" + job + "]";
+	}
+	
+	
+	
+}

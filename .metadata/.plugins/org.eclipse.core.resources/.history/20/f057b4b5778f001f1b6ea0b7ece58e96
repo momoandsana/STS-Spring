@@ -1,0 +1,25 @@
+package sample02;
+
+public class MemberService {
+	private MemberDAO memberDAO;
+	private Member member;
+	
+	public MemberService() {
+		System.out.println("MemberService 생성자");
+	}
+
+	public MemberService(MemberDAO memberDAO, Member member) {
+		super();
+		this.memberDAO = memberDAO;
+		this.member = member;
+		System.out.println("MemberService memberDAO 호출");
+		System.out.println("memberDAO = "+memberDAO);
+		System.out.println("member = "+member);
+	}
+	
+	public void serviceInsert() {
+		memberDAO.insert(member);
+	}
+	
+	
+}
