@@ -24,7 +24,7 @@
 		<aop:after method="afterFinally" pointcut-ref="pointCut"/> 
 		
 		<aop:after-returning method="afterReturning" pointcut-ref="pointCut" returning="returnObj"/>
-		<aop:after-throwing method="afterThrowing" pointcut-ref="pointCut" throwing="e"/>
+		<aop:after-throwing method="afterThrowing" pointcut-ref="pointCut" returning="e"/>
 	</aop:aspect>
 	
 	

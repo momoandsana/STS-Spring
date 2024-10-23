@@ -13,6 +13,7 @@ public class SampleAdvice {
 		
 	}
 	
+	
 	/*
 	 * 사후처리 : 예외발생여부 상관없이 무조건
 	 */
@@ -20,17 +21,24 @@ public class SampleAdvice {
 		System.out.println("예외발생 여부 상관없이 무조건 사후처리입니다\n");
 	}
 	
+	
+	
+	
+	
 	/*
 	 * 사후처리 : 예외발생없이 정상동작했을 때
 	 */
 	public void afterReturning(JoinPoint joinPoint,Object returnObj) {
-		// return 값을 받아와서 사용하고 싶으면, returnObj 로 받아오기, xml 파일에도 returning 설정해주기
+		// return 값을 받아와서 사용하고 싶으면, returnObj 로 받아오기
 		
 		String methodName=joinPoint.getSignature().getName();
 		
 		System.out.println("afterReturning() 정상작동했을 때 사후처리입니다");
 		System.out.println(methodName+"의 리턴값은 "+returnObj+"/n");
 	}
+	
+	
+	
 	
 	/*
 	 * 사후처리 : 예외발생했을 때

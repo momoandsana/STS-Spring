@@ -22,9 +22,7 @@
 	<aop:aspect ref="sampleAdvice">
 		<aop:before method="before" pointcut-ref="pointCut"/>
 		<aop:after method="afterFinally" pointcut-ref="pointCut"/> 
-		
-		<aop:after-returning method="afterReturning" pointcut-ref="pointCut" returning="returnObj"/>
-		<aop:after-throwing method="afterThrowing" pointcut-ref="pointCut" throwing="e"/>
+		<aop:after-returning method="afterReturning" pointcut-ref="pointCut"/>
 	</aop:aspect>
 	
 	
