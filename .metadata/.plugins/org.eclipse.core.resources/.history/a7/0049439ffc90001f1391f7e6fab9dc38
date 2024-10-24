@@ -1,8 +1,0 @@
-package exam.aop;
-
-/*
- * 사전,사후 처리
- */
-public class AroundAdvice {
-	
-}

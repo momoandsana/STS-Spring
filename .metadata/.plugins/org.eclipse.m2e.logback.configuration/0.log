@@ -2416,3 +2416,465 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2024-10-23 15:54:21,232 [Worker-86: Launching MainApp (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_AOP_Annotation\src\main\resources
 2024-10-23 15:54:21,233 [Worker-86: Launching MainApp (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-10-23 15:54:21,233 [Worker-86: Launching MainApp (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_AOP_Annotation\src\test\resources
+2024-10-23 15:58:27,760 [Worker-83: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: step02_AOP:step02_AOP:0.0.1-SNAPSHOT @ C:\Edu\Spring\springFramework\workSpace\step05_player_practice\pom.xml.
+2024-10-23 15:58:27,846 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 15:58:27,846 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice\src\main\resources
+2024-10-23 15:58:27,846 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 15:58:27,847 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice\src\test\resources
+2024-10-23 15:58:29,002 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 15:58:29,002 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice\src\main\resources
+2024-10-23 15:58:29,002 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 15:58:29,002 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice\src\test\resources
+2024-10-23 16:00:13,492 [Worker-90: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: step02_AOP:step02_AOP:0.0.1-SNAPSHOT @ C:\Edu\Spring\springFramework\workSpace\step05_player_practice_xml\pom.xml.
+2024-10-23 16:00:13,646 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:00:13,646 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice_xml\src\main\resources
+2024-10-23 16:00:13,646 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:00:13,646 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice_xml\src\test\resources
+2024-10-23 16:00:14,758 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:00:14,758 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice_xml\src\main\resources
+2024-10-23 16:00:14,759 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:00:14,759 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice_xml\src\test\resources
+2024-10-23 16:00:43,747 [Worker-89: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: step02_AOP:step02_AOP:0.0.1-SNAPSHOT @ C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\pom.xml.
+2024-10-23 16:00:43,829 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:00:43,830 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:00:43,830 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:00:43,830 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:00:45,036 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:00:45,036 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:00:45,036 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:00:45,036 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:01:29,771 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:01:29,771 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:01:29,772 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:01:29,772 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:01:31,551 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:01:31,551 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:01:31,552 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:01:31,552 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:01:39,732 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:01:39,732 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:01:39,733 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:01:39,733 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:01:47,348 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:01:47,348 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:01:47,348 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:01:47,348 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:02:24,811 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:02:24,812 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:02:24,812 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:02:24,812 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:02:36,926 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:02:36,926 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:02:36,926 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:02:36,926 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:02:51,308 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:02:51,308 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:02:51,309 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:02:51,309 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:03:03,679 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:03:03,679 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:03:03,680 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:03:03,680 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:03:08,624 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:03:08,624 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:03:08,625 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:03:08,625 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:03:17,836 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:03:17,836 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:03:17,836 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:03:17,837 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:03:30,871 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:03:30,873 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:03:30,873 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:03:30,873 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:03:39,725 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:03:39,725 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:03:39,725 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:03:39,725 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:04:16,779 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:04:16,779 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:04:16,779 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:04:16,780 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:04:46,913 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:04:46,913 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:04:46,915 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:04:46,915 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:04:51,428 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:04:51,429 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:04:51,429 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:04:51,430 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:05:00,927 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:05:00,927 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:05:00,928 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:05:00,928 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:06:45,951 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:06:45,951 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:06:45,952 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:06:45,952 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:12:09,751 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:12:09,752 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:12:09,752 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:12:09,752 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:13:37,888 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:13:37,888 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:13:37,889 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:13:37,889 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:13:44,874 [Worker-82: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:13:44,874 [Worker-82: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:13:44,874 [Worker-82: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:13:44,874 [Worker-82: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:14:36,317 [Worker-94: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:14:36,317 [Worker-94: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:14:36,317 [Worker-94: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:14:36,317 [Worker-94: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:16:46,144 [Worker-93: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:16:46,144 [Worker-93: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:16:46,145 [Worker-93: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:16:46,145 [Worker-93: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:16:56,893 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:16:56,894 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:16:56,894 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:16:56,894 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:17:25,338 [Worker-100: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:17:25,338 [Worker-100: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:17:25,340 [Worker-100: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:17:25,340 [Worker-100: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:17:40,460 [Worker-96: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:17:40,460 [Worker-96: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:17:40,461 [Worker-96: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:17:40,461 [Worker-96: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:17:55,014 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:17:55,014 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:17:55,015 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:17:55,015 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:23:01,114 [Worker-104: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:23:01,114 [Worker-104: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:23:01,114 [Worker-104: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:23:01,114 [Worker-104: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:23:31,023 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:23:31,024 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:23:31,024 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:23:31,024 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:23:53,760 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:23:53,760 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:23:53,760 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:23:53,761 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:26:03,938 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:26:03,938 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:26:03,938 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:26:03,938 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:26:09,354 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:26:09,354 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:26:09,355 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:26:09,355 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:26:12,079 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:26:12,079 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:26:12,079 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:26:12,080 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:27:37,269 [Worker-109: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:27:37,270 [Worker-109: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:27:37,270 [Worker-109: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:27:37,270 [Worker-109: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:36:04,069 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:36:04,070 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:36:04,070 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:36:04,070 [Worker-95: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:38:27,574 [Worker-114: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:38:27,574 [Worker-114: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:38:27,575 [Worker-114: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:38:27,575 [Worker-114: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:38:59,778 [Worker-114: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:38:59,778 [Worker-114: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:38:59,779 [Worker-114: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:38:59,779 [Worker-114: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:39:08,557 [Worker-113: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:39:08,557 [Worker-113: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:39:08,558 [Worker-113: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:39:08,558 [Worker-113: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:44:13,222 [Worker-119: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:44:13,222 [Worker-119: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:44:13,223 [Worker-119: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:44:13,223 [Worker-119: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:44:44,968 [Worker-113: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:44:44,968 [Worker-113: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:44:44,969 [Worker-113: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:44:44,969 [Worker-113: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:45:40,817 [Worker-122: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:45:40,818 [Worker-122: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:45:40,818 [Worker-122: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:45:40,818 [Worker-122: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:46:17,333 [Worker-121: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:46:17,333 [Worker-121: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:46:17,334 [Worker-121: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:46:17,334 [Worker-121: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:48:13,915 [Worker-125: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:48:13,915 [Worker-125: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:48:13,916 [Worker-125: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:48:13,916 [Worker-125: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:48:34,098 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:48:34,099 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:48:34,099 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:48:34,099 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-23 16:49:02,315 [Worker-128: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:49:02,316 [Worker-128: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\main\resources
+2024-10-23 16:49:02,316 [Worker-128: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-23 16:49:02,316 [Worker-128: Launching MainApp (11)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_practice_xml\src\test\resources
+2024-10-24 09:27:19,010 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-24 11:22:04,668 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-24 11:22:46,000 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:46,004 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-10-24 11:22:46,008 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:46,008 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step01_springDI\src\test\resources
+2024-10-24 11:22:48,154 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:48,155 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step02_AOP\src\main\resources
+2024-10-24 11:22:48,156 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:48,156 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step02_AOP\src\test\resources
+2024-10-24 11:22:50,518 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:50,518 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step03_AOP_Annotation\src\main\resources
+2024-10-24 11:22:50,519 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:50,519 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step03_AOP_Annotation\src\test\resources
+2024-10-24 11:22:50,734 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:50,735 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step04_AOP\src\main\resources
+2024-10-24 11:22:50,735 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:50,735 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step04_AOP\src\test\resources
+2024-10-24 11:22:50,965 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:50,966 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_AOP_Annotation\src\main\resources
+2024-10-24 11:22:50,966 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:50,966 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_AOP_Annotation\src\test\resources
+2024-10-24 11:22:51,070 [Worker-2: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MainApp (11) references non-existing project step05_practice_xml.
+org.eclipse.core.runtime.CoreException: Launch configuration MainApp (11) references non-existing project step05_practice_xml.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-10-24 11:22:51,075 [Worker-2: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MainApp (11) references non-existing project step05_practice_xml.
+org.eclipse.core.runtime.CoreException: Launch configuration MainApp (11) references non-existing project step05_practice_xml.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-10-24 11:22:51,082 [Worker-2: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MainApp (11) references non-existing project step05_practice_xml.
+org.eclipse.core.runtime.CoreException: Launch configuration MainApp (11) references non-existing project step05_practice_xml.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-10-24 11:22:52,929 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: step02_AOP:step02_AOP:0.0.1-SNAPSHOT @ C:\Edu\Spring\springFramework\workSpace\step05_player_practice_xml\pom.xml.
+2024-10-24 11:22:53,044 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:53,044 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice_xml\src\main\resources
+2024-10-24 11:22:53,045 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:53,045 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice_xml\src\test\resources
+2024-10-24 11:22:54,033 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 11:22:54,035 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 11:22:54,049 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 11:22:54,051 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 11:22:55,736 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:55,736 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice_xml\src\main\resources
+2024-10-24 11:22:55,737 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-24 11:22:55,737 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step05_player_practice_xml\src\test\resources
+2024-10-24 12:27:56,222 [Worker-39: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web.mvc:controller:1.0.0-BUILD-SNAPSHOT @ C:\Edu\Spring\springFramework\workSpace\step10_MVC\pom.xml.
+2024-10-24 12:27:56,652 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:27:56,653 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 12:27:56,656 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:27:56,656 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 12:27:56,903 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:27:56,907 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 12:27:56,909 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:27:56,910 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 12:28:58,223 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:28:58,224 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 12:28:58,228 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:28:58,229 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 12:29:05,656 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:29:05,657 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 12:29:05,659 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:29:05,659 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 12:29:57,272 [Worker-38: Building Project step10_MVC] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:29:57,273 [Worker-38: Building Project step10_MVC] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 12:29:57,278 [Worker-38: Building Project step10_MVC] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:29:57,279 [Worker-38: Building Project step10_MVC] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 12:31:05,725 [Worker-44: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web.mvc:controller:1.0.0-BUILD-SNAPSHOT @ C:\Edu\Spring\springFramework\workSpace\step10_MVC\pom.xml.
+2024-10-24 12:31:05,925 [Worker-44: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.3.39.RELEASE/spring-context-5.3.39.RELEASE.pom
+2024-10-24 12:31:05,927 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-context:jar:5.3.39.RELEASE is missing, no dependency information available
+2024-10-24 12:31:05,934 [Worker-44: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.39.RELEASE/spring-webmvc-5.3.39.RELEASE.pom
+2024-10-24 12:31:05,936 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-webmvc:jar:5.3.39.RELEASE is missing, no dependency information available
+2024-10-24 12:31:05,952 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.39.RELEASE/spring-webmvc-5.3.39.RELEASE.jar
+2024-10-24 12:31:05,957 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.3.39.RELEASE/spring-context-5.3.39.RELEASE.jar
+2024-10-24 12:31:05,973 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-context:jar:5.3.39.RELEASE is missing, no dependency information available
+2024-10-24 12:31:05,978 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-webmvc:jar:5.3.39.RELEASE is missing, no dependency information available
+2024-10-24 12:31:06,114 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:31:06,115 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 12:31:06,115 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:31:06,116 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 12:31:06,117 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of step10_MVC
+2024-10-24 12:31:06,117 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for step10_MVC
+2024-10-24 12:31:06,120 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:31:07,155 [Worker-42: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-context:jar:5.3.39.RELEASE is missing, no dependency information available
+2024-10-24 12:31:07,156 [Worker-42: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-webmvc:jar:5.3.39.RELEASE is missing, no dependency information available
+2024-10-24 12:31:07,200 [Worker-42: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.3.39.RELEASE/spring-context-5.3.39.RELEASE-sources.jar
+2024-10-24 12:31:07,202 [Worker-42: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework:spring-context:5.3.39.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-context:jar:sources:5.3.39.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-10-24 12:31:07,237 [Worker-42: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.39.RELEASE/spring-webmvc-5.3.39.RELEASE-sources.jar
+2024-10-24 12:31:07,238 [Worker-42: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework:spring-webmvc:5.3.39.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-webmvc:jar:sources:5.3.39.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-10-24 12:31:17,144 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web.mvc:controller:1.0.0-BUILD-SNAPSHOT @ C:\Edu\Spring\springFramework\workSpace\step10_MVC\pom.xml.
+2024-10-24 12:31:17,194 [Worker-38: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.39/spring-webmvc-5.3.39.pom
+2024-10-24 12:31:17,233 [Worker-38: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.39/spring-webmvc-5.3.39.pom
+2024-10-24 12:31:17,244 [Worker-38: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.39/spring-web-5.3.39.pom
+2024-10-24 12:31:17,270 [Worker-38: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.39/spring-web-5.3.39.pom
+2024-10-24 12:31:17,325 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.39/spring-webmvc-5.3.39.jar
+2024-10-24 12:31:17,342 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.39/spring-web-5.3.39.jar
+2024-10-24 12:31:17,537 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.39/spring-webmvc-5.3.39.jar
+2024-10-24 12:31:17,560 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.39/spring-web-5.3.39.jar
+2024-10-24 12:31:17,802 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:31:17,802 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 12:31:17,802 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:31:17,804 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 12:31:17,804 [Worker-38: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of step10_MVC
+2024-10-24 12:31:17,804 [Worker-38: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for step10_MVC
+2024-10-24 12:31:17,806 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:31:18,899 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.39/spring-webmvc-5.3.39-sources.jar
+2024-10-24 12:31:19,000 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.39/spring-webmvc-5.3.39-sources.jar
+2024-10-24 12:31:19,068 [Worker-45: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.3.39
+2024-10-24 12:31:19,145 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.39/spring-web-5.3.39-sources.jar
+2024-10-24 12:31:19,315 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.39/spring-web-5.3.39-sources.jar
+2024-10-24 12:31:19,394 [Worker-45: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.3.39
+2024-10-24 12:31:19,453 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:31:19,455 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 12:31:19,462 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 12:31:19,464 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 14:29:50,479 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:29:50,480 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 14:29:50,481 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:29:50,482 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:31:22,832 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:31:22,834 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 14:31:22,835 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:31:22,836 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:32:21,639 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:32:21,640 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 14:32:21,641 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:32:21,642 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:35:20,018 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:35:20,020 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:35:20,021 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:35:20,021 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:37:07,444 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:37:07,445 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:37:07,445 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:37:07,446 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:37:46,255 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:37:46,256 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:37:46,257 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:37:46,258 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:38:57,311 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:38:57,312 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:38:57,313 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:38:57,313 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:40:44,994 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:40:44,995 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 14:40:44,997 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:40:44,997 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:45:42,112 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:45:42,113 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:45:42,115 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:45:42,116 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:46:21,413 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:46:21,415 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 14:46:21,416 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:46:21,417 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:47:05,080 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:47:05,081 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 14:47:05,082 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:47:05,084 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-10-24 14:53:39,283 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 14:53:39,284 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-10-24 14:53:39,285 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
