@@ -3,6 +3,8 @@ C:\Edu\Spring\springFramework\workSpace\.metadata\.plugins\org.eclipse.jst.jsp.c
 \step08_MyFramework\src\main\java
 C:\Edu\Spring\springFramework\workSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4205528534.index
 \step09_MyFrameworkLIB\src\main\java
+C:\Edu\Spring\springFramework\workSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3099688393.index
+\step10_MVC\src\main\java
 C:\Edu\Spring\springFramework\workSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4066894320.index
 \step10_MVC\src\main\java
 C:\Edu\Spring\springFramework\workSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1823557430.index
