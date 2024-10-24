@@ -1,13 +1,18 @@
 package web.mvc.controller;
 
 import java.util.Arrays;
+import java.util.List;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+
 import lombok.extern.slf4j.Slf4j;
+import web.mvc.vo.UserVo;
 
 @Controller// 생성, component scan 대상이 되어야 가능
 @RequestMapping("/param")
@@ -40,5 +45,37 @@ public class ParameterController {
 		model.addAttribute("list",Arrays.asList("사과","딸기","배","바나나")); // 뷰에서 ${list}
 		
 	}
+	
+	/*
+	 * 파라미터로 전달된 정보를 객체로 바인딩하면
+	 * 전달된 객체를 뷰에서 사용할 수 있다
+	 * 방법 : ${객체이름.속성} - 객체이름은 첫글자를 소문자
+	 * 
+	 * ex) ${userVo.id}
+	 */
+	@PostMapping(value="/user.do")
+	public String user(@ModelAttribute("user") UserVo vo) {// jsp에서도 ${user.name} 으로 열어야 한다
+		//vo 의 setter 를 사용해서 폼에서 입력 받은 값이 바인딩됨
+		/*
+		 * 전달 받은 vo를 서비스에 전달
+		 * 폼의 name 과 UserVo 의 필드들과 매치된다
+		 * 
+		 */
+		log.info("vo = {}",vo);
+		
+		return "userResult";
+		// WEB-INF/views/userResult.jsp 로 이동"
+	}
+	
+	@ModelAttribute("msg")// 뷰에서 ${msg} 로 사용 --> 같은 컨트롤러 안에서만 공유 가능
+	public String aaa() {
+		return "오늘도 수고많으셨어요";
+	}
+	
+	@ModelAttribute("menu") // 뷰에서 ${menu} 로 사용
+	public List<String> bb(){
+		return Arrays.asList("짬뽕","짜장");
+	}
+	
 
 }
