@@ -8,6 +8,6 @@
 <h1>
 	
 </h1>
-	message : ${requestScope.name} / ${name}
+	Name : ${requestScope.name} / ${name}
 </body>
 </html>
