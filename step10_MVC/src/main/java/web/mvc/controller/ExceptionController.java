@@ -32,7 +32,8 @@ public class ExceptionController {
 	 * @ExceptionHandler 로 설정했기 때문에 이 컨트롤러에서만 사용 가능하고, 다른 컨트롤러에서는 사용하지 못한다
 	 *
 	 */
-	@ExceptionHandler(value={NumberFormatException.class,ArithmeticException.class})
+	@ExceptionHandler(value={NumberFormatException.class})
+//	@ExceptionHandler(value={NumberFormatException.class,ArithmeticException.class})
 	public ModelAndView exception(Exception e) {
 		log.error("메시지 : {} ",e.getMessage());
 		
