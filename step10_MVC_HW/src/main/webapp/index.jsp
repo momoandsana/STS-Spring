@@ -7,9 +7,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IT's KB</title>
- <link rel="stylesheet" type="text/css" href="css/common.css">
-  <link rel="stylesheet" type="text/css" href="css/navbar.css">
-  <link rel="stylesheet" type="text/css" href="css/footer.css">
+ <link rel="stylesheet" type="text/css" href="resources/css/common.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/footer.css">
 
  <!-- index.html 에만 적용할 CSS -->
  <style type="text/css">
@@ -58,7 +58,7 @@
  </style>
  
  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
- <script type="text/javascript" src="${pageContext.request.contextPath}/js/common.js"></script>
+ <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/common.js"></script>
  
  <script type="text/javascript">
  

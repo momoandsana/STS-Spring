@@ -17,7 +17,7 @@
              <li class="nav-item">${sessionScope.userDto.name}님</li>
         </c:if>
         
-        <li class="nav-item logo"><a href="index.jsp"><img src="${pageContext.request.contextPath}/images/logo.jpg" alt="로고입니다." ></a></li>
+        <li class="nav-item logo"><a href="index.jsp"><img src="${pageContext.request.contextPath}/resources/images/logo.jpg" alt="로고입니다." ></a></li>
        <li class="nav-item"> <a href="${pageContext.request.contextPath}/personal">개인</a></li>
         <li class="nav-item"><a href="${pageContext.request.contextPath}/business">기업</a></li>
         
