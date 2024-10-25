@@ -67,6 +67,7 @@ public class ParameterController {
 		 * 폼의 name 과 UserVo 의 필드들과 매치된다
 		 * UserVo 에 없는 필드가 넘어오면 무시
 		 * userResult.jsp에 user가 그대로 전달
+		 * "user"는 userResult.jsp 에서 활용하기 위해 만든 단어
 		 * jsp에서는 ${user.name}
 		 * 자바에서는 vo.name 으로 사용
 		 * 

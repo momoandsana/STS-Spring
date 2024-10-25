@@ -92,7 +92,7 @@
   <div id="container">
   
     <!-- navBar 로 대체 -->
-  	<jsp:include page="/views/navbar.jsp"/>
+  	<jsp:include page="../navbar.jsp"/>
   	
     <div id="banner">지금 당신의 행복! IT's KB Life!</div>
     <div id="personal">
