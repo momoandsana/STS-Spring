@@ -32,6 +32,10 @@ public class PathVariableController {
 	{
 		log.info("요청 type ={} //  name = {}",type, name);
 		log.info("no = {}",no);
-		return "result";
+		//return "result";
+		
+		// 컨트롤러->컨트롤러
+		return "forward:/rem/a.do"; // url 주소 변경x
+//		return "redirect:/rem/a.do"; // url 주소 변경
 	}
 }
