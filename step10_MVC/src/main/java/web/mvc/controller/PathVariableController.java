@@ -24,10 +24,14 @@ public class PathVariableController {
 		return "result";
 	}
 	
-	@RequestMapping("/board/{type}/{id}")
-	public String handleFaq(@PathVariable String type,
-			@PathVariable String id) {
-		log.info("요청 ={} //  id = {}",type, id);
+	@RequestMapping("/{type}/{name}/{no}")
+	public String cc(@PathVariable String type,
+			@PathVariable String name,
+			@PathVariable int no)
+		
+	{
+		log.info("요청 type ={} //  name = {}",type, name);
+		log.info("no = {}",no);
 		return "result";
 	}
 }
