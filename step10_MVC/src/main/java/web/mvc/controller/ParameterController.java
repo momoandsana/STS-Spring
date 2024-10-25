@@ -39,6 +39,7 @@ public class ParameterController {
 			@RequestParam(defaultValue="guest",value="userId") String id,//클라이언트에서 id="name"이 아니라 userId="name" 으로 보낼거임
 			@RequestParam(defaultValue="0") int age) {
 		// 인수 Model 은 뷰쪽으로 전달될 데이터, age에 값이 안 들어온다면 기본값을 0으로 설정
+		// userId가 없거나 null 인 경우 userId는 guest 가 된다
 		
 		log.info("id = {} // age={}",id,age);
 		
@@ -59,6 +60,9 @@ public class ParameterController {
 		/*
 		 * 전달 받은 vo를 서비스에 전달
 		 * 폼의 name 과 UserVo 의 필드들과 매치된다
+		 * userResult.jsp에 user가 그대로 전달
+		 * jsp에서는 ${user.name}
+		 * 자바에서는 vo.name 으로 사용
 		 * 
 		 */
 		log.info("vo = {}",vo);
