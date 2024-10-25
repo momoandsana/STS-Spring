@@ -31,7 +31,10 @@
 	</filter-mapping>
 
 
-	<!-- Processes application requests -->
+	<!-- 
+	Processes application requests
+	DispatcherServlet(Front Controller)역할
+	 -->
 	<servlet>
 		<servlet-name>appServlet</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>

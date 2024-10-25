@@ -18,6 +18,11 @@ import web.mvc.vo.UserVo;
 @RequestMapping("/param")
 @Slf4j // lombok 에서 제공하는 logger를 생성해주는 역할
 public class ParameterController {
+	/*
+	 * ModelAndView 로 반환하지 않아도 내부적으로는 내부적으로 ModelAndView 로 반환한다
+	 * @ModelAttribute를 인수로 받으면 별다른 addAttribute 없이 return "jsp이름"으로 jsp로 전송가능하지만
+	 * @RequestParam으로 값을 받았다면 addAttribute로 따로 추가해야지 jsp 로 전송 가능
+	 */
 	
 	@RequestMapping("/a.do")
 	public String aa(String name,Integer age) {
@@ -60,6 +65,7 @@ public class ParameterController {
 		/*
 		 * 전달 받은 vo를 서비스에 전달
 		 * 폼의 name 과 UserVo 의 필드들과 매치된다
+		 * UserVo 에 없는 필드가 넘어오면 무시
 		 * userResult.jsp에 user가 그대로 전달
 		 * jsp에서는 ${user.name}
 		 * 자바에서는 vo.name 으로 사용
