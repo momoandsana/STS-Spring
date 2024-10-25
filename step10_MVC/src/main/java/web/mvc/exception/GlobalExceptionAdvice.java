@@ -22,7 +22,8 @@ public class GlobalExceptionAdvice {
 	public ModelAndView error(NumberFormatException e) {
 		log.error("숫자변환 오류...");
 		ModelAndView mv=new ModelAndView();
-		mv.setViewName("error/numberError"); // WEB-INF/VIEWS/error/numberError.jsp
+		mv.setViewName("error/numberError"); 
+		// 미리 설정한 prefix & suffix 가 붙음. WEB-INF/VIEWS/error/numberError.jsp
 		
 		mv.addObject("msg","숫자변환 오류...");
 		mv.addObject("errClass",e.getClass().getName());
@@ -58,4 +59,34 @@ public class GlobalExceptionAdvice {
 //		
 //		return null;
 //	}
+	
+	/*
+	 * BasicException에 대한 처리
+	 */
+	@ExceptionHandler(value= {BasicException.class})
+	public ModelAndView error3(BasicException e) {
+		log.info("error3 : {}"+e.getErrorInfo().getMsg());
+		// BasicException 안에 msg 랑 status 가 있음. 꺼내 쓰기
+		
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("error/basicError");
+		mv.addObject("msg",e.getErrorInfo().getMsg());
+		mv.addObject("status",e.getErrorInfo().getStatus());
+		
+		return mv;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,11 +6,16 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import web.mvc.service.ExceptionTestService;
 
 @Controller
 @Slf4j
+@RequiredArgsConstructor
 public class ExceptionController {
+	
+	private final ExceptionTestService service;// @RequiredArgsConstructor 로 생성자 주입
 	
 	@RequestMapping(value="/exception.do")
 	public String aa(String no) {
@@ -24,6 +29,30 @@ public class ExceptionController {
 		
 		return "result";// WEB-INF/views/result.jsp
 	}
+	
+	@RequestMapping("/ageCheck.do")
+	public String ageCheck(int age) {
+		// 서비스 호출
+		service.ageCheck(age);
+		
+		return "error/basicError";
+	}
+	
+	@RequestMapping("/idCheck.do")
+	public String idCheck(String id) {
+		// 서비스 호출
+		service.idCheck(id);
+		
+		return "error/basicError";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	/*
 	 * 현재 컨트롤러에서 NumberFormantException 에서 예외가 발생했을 때 
