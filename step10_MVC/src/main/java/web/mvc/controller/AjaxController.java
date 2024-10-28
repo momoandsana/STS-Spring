@@ -1,7 +1,9 @@
 package web.mvc.controller;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,6 +20,7 @@ import web.mvc.dto.UserDTO;
 @Slf4j
 public class AjaxController {
 	
+	// 원하는 데이터타입으로 리턴
 	@PostMapping("/ajax.do") // jsp에서 data : {email:"jang" , pwd="1234"}
 	public ProductDTO ajax(String email,String pwd) {
 		log.info("email = {} , pwd = {}",email,pwd);
@@ -33,10 +36,22 @@ public class AjaxController {
 	}
 	
 	@RequestMapping("/ajax2.do")
-	public ResponseEntity<String> ajax2(UserDTO userDTO) {
+	public ResponseEntity<?> ajax2(UserDTO userDTO) {
 		log.info("userDTO = {}",userDTO);
 		
-		return ResponseEntity.status(200).body("ok");
+		
+		return ResponseEntity.status(HttpStatus.OK).body("ok");
+	}
+	
+	/*
+	 * 프론트에서 전달되는 데이터를 제이슨 객체로 바인딩할 때는
+	 * @RequestBody 가 필요(인수로 받는다)
+	 */
+	@RequestMapping("/ajax3.do")
+	public ResponseEntity<?> ajax3(@RequestBody UserDTO userDTO)
+	{
+		log.info("ajax3 의 userDTO = {}",userDTO);
+		return ResponseEntity.status(HttpStatus.OK).body("ok2");
 	}
 
 	
