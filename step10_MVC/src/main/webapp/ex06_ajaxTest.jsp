@@ -40,7 +40,7 @@ $("#btn2").click(function(){
     		data:jsonData ,
     		dataType:"text", //text |xml | html | json
     		success: function(result){
-    			alert(result)
+    			console.log(result);
     			
     		},
     		error : function(jqXHR, textStatus, errorThrown){
