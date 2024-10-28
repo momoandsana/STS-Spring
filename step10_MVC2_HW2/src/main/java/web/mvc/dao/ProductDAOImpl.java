@@ -21,7 +21,7 @@ public class ProductDAOImpl implements ProductDAO {
 	public int insert(ProductDTO productDTO) throws MyErrorException {
 		// TODO Auto-generated method stub
 		for(ProductDTO product : list) { //selectByCode() 사용하기
-			if(product.getCode()==productDTO.getCode())throw new MyErrorException(ErrorInfo.DUPLICATE_CODE);
+			if((product.getCode()).equals(productDTO.getCode()))throw new MyErrorException(ErrorInfo.DUPLICATE_CODE);
 		}
 		list.add(productDTO);
 		
@@ -44,6 +44,10 @@ public class ProductDAOImpl implements ProductDAO {
 	@Override
 	public int delete(String code) throws MyErrorException {
 	    boolean removed = list.removeIf(product -> product.getCode().equals(code));
+	    
+//	    ProductDTO product=selectByCode(code);
+//	    list.remove(product);
+	    
 	    return removed ? 1 : 0;
 	}
 

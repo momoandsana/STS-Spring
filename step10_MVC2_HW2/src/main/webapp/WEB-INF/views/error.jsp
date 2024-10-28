@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>오류(${errStatus}) : ${errMessage}</h1>
+<h1>오류(${errStatus}) : ${errMsg}</h1>
 <a href="${pageContext.request.contextPath}/">이동하기</a> &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="javascript:history.back()">뒤로가기</a>
 
