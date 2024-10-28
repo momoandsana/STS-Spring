@@ -78,8 +78,8 @@ public class ProductController {
 	/*
 	 * updateForm 열기
 	 */
-	@GetMapping("/updateForm")
-	public String updateForm(@RequestParam("code") String code,Model model)
+	@GetMapping("/updateForm/{code}")
+	public String updateForm(@PathVariable("code") String code,Model model)
 	{
 		ProductDTO product=service.selectByCode(code);
 		model.addAttribute("product",product);
@@ -89,13 +89,18 @@ public class ProductController {
 	/*
 	 * 실제 업데이트
 	 */
-	@PostMapping("/update")
-	public String updateProduct(@ModelAttribute ProductDTO productDTO)
-	{
-		int result=service.updateByCode(productDTO);
+	@PostMapping("/products/{code}")
+	public String updateProduct(@PathVariable("code") String code,@ModelAttribute ProductDTO productDTO)
+	{	
+		ProductDTO dummyProduct=service.selectByCode(code);
+		dummyProduct.setName(productDTO.getName());
+		dummyProduct.setPrice(productDTO.getPrice());
+		dummyProduct.setDetail(productDTO.getDetail());
+		int result=service.updateByCode(dummyProduct); 
 		if(result==1)return "redirect:/read/" + productDTO.getCode(); 
 		return null;
 	}
+	
 	
 }
 

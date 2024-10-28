@@ -20,7 +20,7 @@ public class ProductDAOImpl implements ProductDAO {
 	@Override
 	public int insert(ProductDTO productDTO) throws MyErrorException {
 		// TODO Auto-generated method stub
-		for(ProductDTO product : list) {
+		for(ProductDTO product : list) { //selectByCode() 사용하기
 			if(product.getCode()==productDTO.getCode())throw new MyErrorException(ErrorInfo.DUPLICATE_CODE);
 		}
 		list.add(productDTO);
@@ -53,7 +53,7 @@ public class ProductDAOImpl implements ProductDAO {
 		// TODO Auto-generated method stub
 		for(ProductDTO product:list)
 		{
-			if(product.getCode().equals(productDTO.getCode()))
+			if(product.getCode().equals(productDTO.getCode())) //selectByCode() 사용
 			{
 				product.setName(productDTO.getName());
 				product.setPrice(productDTO.getPrice());
