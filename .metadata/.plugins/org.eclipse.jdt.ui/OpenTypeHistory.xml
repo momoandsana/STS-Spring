@@ -3,4 +3,5 @@
     <typeInfo handle="=step01_springDI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sample01{MessageBean.java[MessageBean" modifiers="513" timestamp="1729487632305"/>
     <typeInfo handle="=step01_springDI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sample07{BoardService.java[BoardService" modifiers="513" timestamp="1729566582595"/>
     <typeInfo handle="=step01_springDI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sample03{BookDAO.java[BookDAO" modifiers="513" timestamp="1729493957447"/>
+    <typeInfo handle="=step10_MVC/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;web.mvc.service{ExceptionTestService.java[ExceptionTestService" modifiers="513" timestamp="1729836739415"/>
 </typeInfoHistroy>
