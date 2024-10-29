@@ -1,8 +1,0 @@
-package sample07;
-
-public class BoardMyBatisDAOImpl implements BoardDAO{
-	BoardMyBatisDAOImpl(){};
-	
-	@Override
-	void select() {};
-}

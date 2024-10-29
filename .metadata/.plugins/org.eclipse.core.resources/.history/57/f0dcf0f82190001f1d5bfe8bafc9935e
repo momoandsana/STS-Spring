@@ -1,9 +1,0 @@
-package sample07;
-
-public class MemberDAO {
-	public MemberDAO() {
-		System.out.println("MemberDAO 생성자");
-	};
-	
-	void insert(Member member) {};
-}

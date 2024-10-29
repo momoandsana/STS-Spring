@@ -71,7 +71,10 @@ $("#btn2").click(function(){
       		error : function(jqXHR, textStatus, errorThrown){
       			//alert("문제 발생 : " + jqXHR.status)
       			console.log(jqXHR);
-      			console.log(jqXHR.responseText);
+      			console.log(jqXHR.responseJSON.msg);
+      			console.log(jqXHR.responseJSON.status);
+      			//console.log(jqXHR.responseText);// 미성년자
+      			//console.log(jqXHR.status);// 600
       			console.log(textStatus);
       			console.log(errorThrown);
       		}

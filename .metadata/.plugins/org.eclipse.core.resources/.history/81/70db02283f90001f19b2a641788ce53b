@@ -1,6 +1,0 @@
-package sample08;
-
-@Repository
-public interface BookDAO {
-	void save(EmailSender email,MessageSender message,BookDTO bookDTO);
-}

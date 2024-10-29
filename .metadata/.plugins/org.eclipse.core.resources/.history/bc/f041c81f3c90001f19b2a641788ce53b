@@ -1,9 +1,0 @@
-package sample08;
-
-public class MainApp {
-	public static main(String[] args)
-	{
-		
-	}
-
-}

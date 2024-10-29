@@ -1,9 +1,0 @@
-package sample08;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-@NoArgs
-public class BookController {
-
-}

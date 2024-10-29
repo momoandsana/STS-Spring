@@ -84,7 +84,11 @@ public class AjaxController {
 	}
 	/*
 	 * ajax2.do 는 텍스트로 브라우저로 넘어가고(form data 형식)
-	 * ajax3.do 는 json 형식으로 받는다
+	 * postman 에서 params 로 key value 입력하기(dto 필드에 맞게)
+	 * 
+	 * ajax3.do 는 json 형식으로 받는다->@RequestBody 로 받으니까
+	 * postman에서 보낼때도 params 가 아니라 body-raw-json 으로 직접{}로 작성하기
+	 * 
 	 * ResponseEntity 로 보내는게 좋다(형식 통일), 상태코드&헤더 같은 값도 설정해줄 수 있음
 	 * ResponseEntity 는 내용물에 맞춰서 나감. 객체이든 String 이든
 	 * @ResponseBody를 사용하는 것보다 더 세세한 설정을 해줄 수 있음
