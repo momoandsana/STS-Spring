@@ -65,8 +65,9 @@ public class GlobalExceptionAdvice {
 	 */
 	@ExceptionHandler(value= {BasicException.class})
 	public ModelAndView error3(BasicException e) {
-		log.info("error3 : {}"+e.getErrorInfo().getMsg());
+		log.error("error3 : {}"+e.getErrorInfo().getMsg());
 		// BasicException 안에 msg 랑 status 가 있음. 꺼내 쓰기
+		// @ExcceptionHandler 쓰면 log.error 라고 해야지 에러 메시지가 콘솔에 나옴
 		
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("error/basicError");

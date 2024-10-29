@@ -56,20 +56,24 @@ $("#btn2").click(function(){
 	  */
 	  $("#btn3").click(function(){
 		  
-		  let jsonData ={id:"jang" , name : "희정",   age:20 , addr:"서울" }
+		  let jsonData ={id:"jang" , name : "희정",   age:12 , addr:"서울" }
 		  
 		  $.ajax({
       		url:"${pageContext.request.contextPath}/ajax3.do",
       		type:"post",
       		contentType:"application/json;charset=UTF-8",
       		data:JSON.stringify(jsonData) ,
-      		dataType:"text", //text |xml | html | json
+      		dataType:"json", //text |xml | html | json
       		success: function(result){
       			alert(result)
       			
       		},
       		error : function(jqXHR, textStatus, errorThrown){
-      			alert("문제 발생 : " + jqXHR.status)
+      			//alert("문제 발생 : " + jqXHR.status)
+      			console.log(jqXHR);
+      			console.log(jqXHR.responseText);
+      			console.log(textStatus);
+      			console.log(errorThrown);
       		}
       		
       	}); 
