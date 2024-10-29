@@ -53,6 +53,11 @@ public class AjaxController {
 		log.info("ajax3 의 userDTO = {}",userDTO);
 		return ResponseEntity.status(HttpStatus.OK).body("ok2");
 	}
+	/*
+	 * ajax2.do 는 텍스트로 브라우저로 넘어가고(form data 형식)
+	 * ajax3.do 는 json 형식으로 받는다
+	 * ResponseEntity 로 보내는게 좋다(형식 통일)
+	 */
 
 	
 	
