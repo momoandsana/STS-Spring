@@ -36,14 +36,14 @@ public class ProductController {
         return ResponseEntity.status(HttpStatus.CREATED).body(result);
     }
 
-    @GetMapping("/read/{code}")
+    @GetMapping("/products/{code}")
     public ResponseEntity<?> getProductDetail(@PathVariable("code") String code) {
         log.info("상세보기 도착");
         ProductDTO product = service.selectByCode(code);
         return ResponseEntity.ok(product);
     }
 
-    @DeleteMapping("/del/{code}")
+    @DeleteMapping("/products/{code}")
     public ResponseEntity<?> deleteProduct(@PathVariable("code") String code) {
         log.info("삭제 도착");
         service.delete(code);
