@@ -75,12 +75,43 @@ public class MainApp {
 		 * jpql 쓰면 무조건 flush 가 일어남->커밋과 관계없이 디비에 들어간다
 		 */
 		//String sql="select c from Customer c where c.age>22";
-		String sql="select c from Customer c where c.userName like '%희%'";
-		List<Customer> list=em.createQuery(sql,Customer.class).getResultList();
+//		String sql="select c from Customer c where c.userName like '%희%'";
+//		List<Customer> list=em.createQuery(sql,Customer.class).getResultList();
+//		for(Customer cu:list)
+//		{
+//			System.out.println(cu);
+//		}
+		
+		
+		// 파라미터로 전달된 값을 조건으로 사용하고 싶다
+//		String sql="select c from Customer c where c.userName like ?1 or c.age>?2";
+//		// ? 랑 인덱스 번호가 필요함
+//		
+//		List<Customer> list=em.createQuery(sql,Customer.class)
+//				.setParameter(1, "%희%")
+//				.setParameter(2,22)
+//				.getResultList();
+//		
+//		for(Customer cu:list)
+//		{
+//			System.out.println(cu);
+//		}
+		
+		
+		String sql="select c from Customer c where c.userName like :name or c.age>:age";
+		// :name, :age 변수 사용, 밑에서 바인딩
+		
+		List<Customer> list=em.createQuery(sql,Customer.class)
+				.setParameter("name", "%희%")
+				.setParameter("age",22)
+				.getResultList();
+		
 		for(Customer cu:list)
 		{
 			System.out.println(cu);
 		}
+		
+		
 		
 
 		ex.commit();

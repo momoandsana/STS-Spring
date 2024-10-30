@@ -5287,3 +5287,15 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2024-10-30 16:39:48,837 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-10-30 16:39:48,838 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step13_jpa\src\main\resources
 2024-10-30 16:39:48,838 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-30 16:39:48,838 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step13_jpa\src\test\resources
+2024-10-30 16:44:22,929 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-30 16:44:22,929 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step13_jpa\src\main\resources
+2024-10-30 16:44:22,930 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-30 16:44:22,930 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step13_jpa\src\test\resources
+2024-10-30 16:45:42,219 [Worker-157: Launching MainApp (12)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-30 16:45:42,219 [Worker-157: Launching MainApp (12)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step13_jpa\src\main\resources
+2024-10-30 16:45:42,220 [Worker-157: Launching MainApp (12)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-30 16:45:42,220 [Worker-157: Launching MainApp (12)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step13_jpa\src\test\resources
+2024-10-30 16:46:52,570 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-30 16:46:52,570 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Edu\Spring\springFramework\workSpace\step13_jpa\src\main\resources
+2024-10-30 16:46:52,571 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
