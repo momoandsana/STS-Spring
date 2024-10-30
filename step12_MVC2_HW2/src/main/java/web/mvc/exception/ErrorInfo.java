@@ -12,6 +12,9 @@ public enum ErrorInfo {
 	
 	INVALID_PRICE(602,"적절하지 않은 가격입니다");
 	
+	// int status 가 먼저 선언되었으므로 메시지의 601 과 매치
+	// 그 다음 msg 가 선언되었으므로 "msg" 와 매치
+	
 	private final int status;
 	private final String msg;
 	

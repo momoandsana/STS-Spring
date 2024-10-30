@@ -18,6 +18,7 @@ import web.mvc.service.ProductService;
 /*
  * postman에서 http:localhost:9000/controller 에서 나머지 요소들 추가해서 요청하기
  * rest api 에서는 자원만 api로 나타내고 삭제 수정에 대한 것은 delete,put 처럼 요청을 통해서 나타내기
+ * web.xml 에서 /controller 로 contextpath 를 설정했음
  */
 public class ProductController {
 
@@ -65,7 +66,7 @@ public class ProductController {
 	@PutMapping("/products/{code}")
 	public ResponseEntity<?> updateProduct(@PathVariable("code") String code, @RequestBody ProductDTO productDTO) {
 		productDTO.setCode(code);
-		service.updateByCode(productDTO);
+		service.updateByCode(productDTO); // 여기서 exception 이
 		return ResponseEntity.ok().build();
 	}
 	/*
