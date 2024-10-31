@@ -48,8 +48,8 @@ public class Team {
 	 * team 을 mappedBy 로 사용
 	 * 
 	 * @ManyToOne(fetch=FetchType.LAZY)
-	 * 
-	 * @JoinColumn(name="tid") private Team team;
+	 * @JoinColumn(name="tid") 
+  	 * private Team team;
 	 */
 
 	/*
