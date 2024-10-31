@@ -25,7 +25,7 @@ import lombok.ToString;
 @Setter
 @Builder
 @ToString(exclude="team") // @ToString 무의식적으로 추가하면 team 같이 연관된 데이터 모두 불러옴
-@NoArgsConstructor
+@NoArgsConstructor  //Member member = em.find(Member.class, 2L); 이거하고 싶으면 기본생성자 필요함
 @AllArgsConstructor
 public class Member {
 	
