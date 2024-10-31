@@ -14,7 +14,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity // jpa가 관리하는 객체
+//@Entity // jpa가 관리하는 객체
 @Table(name="emp") //테이블이름. 원래는 클래스 이름으로 테이블이 만들어진다
 @Setter
 @Getter

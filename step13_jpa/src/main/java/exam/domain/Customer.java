@@ -25,7 +25,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@Entity // jpa 가 관리하는 객체
+//@Entity // jpa 가 관리하는 객체
 @ToString
 @DynamicUpdate // update 문이 나갈 때, 전체가 업데이트 되는 것이 아니라 바뀐 부분만 업데이트
 //@DynamicInsert
