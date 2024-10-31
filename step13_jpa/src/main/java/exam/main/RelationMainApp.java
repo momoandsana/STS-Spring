@@ -43,7 +43,7 @@ public class RelationMainApp {
 		//Member member = em.find(Member.class, 2L);
 		/*
 		 * pk가 2인 Long이기 때문에 2L, 멤버 꺼내 올려면 constructor가 필요->롬복 어노테이션 필요 Member에
-		 * 
+		 * 기본 생성자(@NoArgsConstructor) 필요
 		 * Member 안에 Team 도 있기 때문에 알아서 Team 을 조인해서 Team 에 대한 정보도 가지고 옴 Member : Team
 		 * 은 @ManyToOne 관계이기 때문에 FetchType을 LAZY 로 하면 조인해서 팀 정보를 가지고 오는 것이 아니라 select 문이
 		 * team에 대해서 한 번 더 돌아 Member 의 ToString에서 team에 대한 정보를 요구하기 때문이다 즉시로딩은 무조건 조인해서
